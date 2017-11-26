@@ -1,0 +1,80 @@
+header {
+	background: linear-gradient(rgba(0,123,223,.95),rgba(0,123,223,.95)),url(../imagenes/banner.jpg) center 40%/cover no-repeat;
+	padding: 180px 100px;;
+	h1 {
+		color: white;
+		font-size: 3rem;
+		font-family: 'Open Sans';
+		padding: 40px 10px;
+		line-height: 30px;
+		letter-spacing: 4px;
+	}
+	p {
+		color: white;
+		font-family: 'Open Sans';
+		padding: 10px 80px;
+		position: absolute;
+		font-size: 1.3rem;
+		background: darken(rgba(0,123,223,.95),30);
+	}
+}
+section {
+	padding: 80px 100px;
+	h1 {
+		text-align: center;
+		padding-bottom: 80px;
+		font-family: 'Open Sans';
+		letter-spacing: 10px;
+		font-size: 3rem;
+	}
+	.formulario {
+		padding: 40px;
+		width: 80%;
+		margin: auto;
+		.grupo_input {
+			display: flex;
+			justify-content: center;
+			padding: 20px;
+			label {
+				display: block;
+				padding: 0px 20px;
+				color: rgba(0,123,223,.95);
+				padding-top: 8px;
+			}
+			input {
+				border: none;
+				border-bottom: solid darken(rgba(0,123,223,.95),10) 2px;
+				width: 70%;
+				padding: 8px;
+				color: rgba(0,123,223,.95);
+				letter-spacing: 2px;
+				font-family: 'Open Sans';
+			}
+			textarea {
+				width: 70%;
+				border: solid 2px rgba(0,123,223,.95);
+				border-radius: 8px;
+				padding: 10px;
+				color: rgba(0,123,223,.95);
+				font-family: 'Open Sans';
+				letter-spacing: 2px;
+			}
+			button {
+				width: 100%;
+				font-size: 1.5rem;
+				font-family: 'Open Sans';
+				font-weight: bold;
+				border-radius: 8px;
+				color: black;
+				transition: .8s;
+				border: solid 4px grey;
+				&:hover {
+					transition: .8s;
+					background: $color_footer;
+					color: white;
+					border: solid 4px darken($color_footer,20);
+				}
+			}
+		}
+	}
+}

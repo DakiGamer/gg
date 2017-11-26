@@ -1,0 +1,40 @@
+header {
+	background: linear-gradient(rgba(0,123,223,.95),rgba(0,123,223,.95)),url(../imagenes/banner.jpg) center 40%/cover no-repeat;
+	padding: 180px 100px;;
+	h1 {
+		color: white;
+		font-size: 3rem;
+		font-family: 'Open Sans';
+		padding: 40px 10px;
+		line-height: 30px;
+		letter-spacing: 4px;
+	}
+	p {
+		color: white;
+		font-family: 'Open Sans';
+		padding: 10px 80px;
+		position: absolute;
+		font-size: 1.3rem;
+		background: darken(rgba(0,123,223,.95),30);
+	}
+}
+section {
+	h1 {
+		padding: 40px;
+		text-align: center;
+		font-family: 'Open Sans';
+		font-weight: bold;
+		font-size: 2rem;
+		letter-spacing: 3px;
+	}
+	.mapas {
+		padding: 20px;
+		display: block;;
+		background: steeblue;
+		
+		iframe {
+			width: 100%;
+			border: solid 6px black;
+		}
+	}
+}

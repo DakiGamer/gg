@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$color_letra : #1C1D21;
+$color_enlace : #0A2463;
+$color_footer: #282D31;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a:hover {
+	text-decoration: none !important;
+}
+*::selection {
+	background: black;
+	color:white;
+}
